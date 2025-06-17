@@ -26,11 +26,12 @@ Each component supports `children` to enable flexible nested content.
 
 ## How to Use the Components
 
+Prepare the necessary data objects, such as user or product information, and pass them as props to the components. Optional props and callbacks allow you to customize the behavior and display. Components also accept React children to render additional content. Event handlers like onClose, onEdit, or onAddToCart let you respond to user interactions within your application. This design provides a flexible, maintainable, and type-safe approach to building your UI.
+
 To use these components, import them from their respective folders and provide the required props according to their TypeScript interfaces. 
 ```tsx
 import { AlertBox } from './components/AlertBox/AlertBox';
 import { UserProfileCard } from './components/UserProfileCard/UserProfileCard';
 import { ProductDisplay } from './components/ProductDisplay/ProductDisplay';
-
 
 
